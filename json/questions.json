@@ -1,0 +1,437 @@
+[
+    {
+        "question" : "A che ore ti svegli la mattina?",
+        "options": [
+            {
+                "label": "Appena in tempo per la colazione",
+                "points": {
+                    "Asa": 12.5,
+                    "Tapis": 12.5,
+                    "Fabbro": 10
+                }
+            },
+            {
+                "label": "12:00",
+                "points": {
+                    "Shregolo": 12.5,
+                    "Mescitello": 11.1
+                }
+            },
+            {
+                "label": "13:00",
+                "points": {
+                    "Yoshi": 10,
+                    "Frida": 12.5
+                }
+            },
+            {
+                "label": "14:00",
+                "points": {
+                    "Tommen": 11.1,
+                    "Ganni": 11.1
+                }
+            }
+        ]
+    },
+    {
+        "question": "Come passi il tuo giovedì sera?",
+        "options": [
+            {
+                "label": "Fatto",
+                "points": {
+                    "Asa": 12.5,
+                    "Duro": 12.5,
+                    "Yoshi": 10,
+                    "Mescitello": 5.55
+                }
+            },
+            {
+                "label": "Poker",
+                "points": {
+                    "Tommen": 11.1,
+                    "Libero": 11.1
+                }
+            },
+            {
+                "label": "Cartoni animati",
+                "points": {
+                    "Dondolo": 12.5,
+                    "Frida": 12.5,
+                    "Tapis": 12.5,
+                    "Mescitello": 5.55,
+                    "Ganni": 11.1
+                }
+            },
+            {
+                "label": "Articoli del Post",
+                "points": {
+                    "Libero": 11.1
+                }
+            }
+        ]
+    },
+    {
+        "question": "Come hai ottenuto il tuo frigo?",
+        "options": [
+            {
+                "label": "L'hai giocato a poker",
+                "points": {
+                    "Tommen": 11.1,
+                    "Ganni": 12.5
+                }
+            },
+            {
+                "label": "L'hai rubato",
+                "points": {
+                    "Yoshi": 10,
+                    "Frida": 12.5
+                }
+            },
+            {
+                "label": "Lo scrocchi",
+                "points": {
+                    "Tapis": 12.5,
+                    "Mescitello": 11.1
+                }
+            },
+            {
+                "label": "L'hai comprato (usato ovviamente)",
+                "points": {
+                    "Fabbro": 10,
+                    "Dondolo": 12.5,
+                    "Shregolo": 12.5,
+                    "Libero": 11.1
+                }
+            }
+        ]
+    },
+    {
+        "question": "Quanto è ordinata la tua camera?",
+        "options": [
+            {
+                "label": "Poco",
+                "points": {
+                    "Tommen": 11.1,
+                    "Ganni": 12.5
+                }
+            },
+            {
+                "label": "Pochissimo",
+                "points": {
+                    "Yoshi": 10,
+                    "Frida": 12.5,
+                    "Shregolo": 12.5,
+                    "Libero": 11.1
+                }
+            },
+            {
+                "label": "Ci ho appena trovato un topo",
+                "points": {
+                    "Fabbro": 10,
+                    "Dondolo": 12.5,
+                    "Tapis": 12.5,
+                    "Mesci": 11.1
+                }
+            },
+            {
+                "label": "Quale camera?",
+                "points": {
+                    "Asa": 12.5,
+                    "Duro": 12.5
+                }
+            }
+        ]
+    },
+    {
+        "question": "Livello di Italiano?",
+        "options": [
+            {
+                "label": "B2",
+                "points": {
+                    "Asa": 12.5,
+                    "Frida": 12.5
+                }
+            },
+            {
+                "label": "B1",
+                "points": {
+                    "Fabbro": 10,
+                    "Dondolo": 12.5,
+                    "Tapis": 12.5
+                }
+            },
+            {
+                "label": "A2",
+                "points": {
+                    "Duro": 6.25,
+                    "Shregolo": 12.5,
+                    "Mescitello": 5.55,
+                    "Tommen": 11.1,
+                    "Ganni": 12.5
+                }
+            },
+            {
+                "label": "Suarez",
+                "points": {
+                    "Yoshi": 10
+                }
+            }
+        ]
+    },
+    {
+        "question": "La tua tazza è piena di:",
+        "options":[
+            {
+                "label": "Cenere",
+                "points": {
+                        "Asa": 12.5,
+                        "Mescitello": 11.1
+                    }
+            },
+            {
+                "label": "The",
+                "points": {
+                        "Frida": 12.5,
+                        "Tapis": 12.5
+                    }
+            },
+            {
+                "label": "Caffé",
+                "points": {
+                        "Fabbro": 10,
+                        "Dondolo": 12.5,
+                        "Shregolo": 12.5
+                    }
+            },
+            {
+                "label": "Gin",
+                "points": {
+                        "Yoshi": 10,
+                        "Duro": 12.5
+                    }
+            }
+        ]
+    },
+    {
+        "question":"Quanto fatturi?",
+        "options": [
+            {
+                "label": "Nulla, sono comunista",
+                "points": {
+                        "Tapis": 12.5
+                    }
+            },
+            {
+                "label": "Nulla, sono povero",
+                "points": {
+                        "Duro": 12.5,
+                        "Mescitello": 11.1
+                    }
+            },
+            {
+                "label": "Nulla, spendo i soldi di mio padre",
+                "points": {
+                        "Fabbro": 10,
+                        "Frida": 12.5
+                    }
+            },
+            {
+                "label": "Linkedin influencer",
+                "points": {
+                        "Yoshi": 10
+                    }
+            }
+        ]
+    },
+    {
+        "question":"Ti lanciano una banana, che fai?",
+        "options":[
+            {
+                "label": "La mangio",
+                "points": {
+                        "Fabbro": 10,
+                        "Tommen": 11.1,
+                        "Ganni": 11.1
+                    }
+            },
+            {
+                "label": "La ciuccio",
+                "points": {
+                        "Asa": 12.5,
+                        "Libero": 11.1
+                    }
+            },
+            {
+                "label": "La pianto",
+                "points": {
+                        "Fabbro": 10,
+                        "Frida": 12.5
+                    }
+            },
+            {
+                "label": "Ci reacto sopra🍌",
+                "points": {
+                        "Dondolo": 12.5
+                    }
+            }
+        ]
+    },
+    {
+        "question":"I tuoi capelli sono:",
+        "options": [
+            {
+                "label": "Unti",
+                "points": {
+                        "Duro": 10
+                    }
+            },
+            {
+                "label": "Sul petto",
+                "points": {
+                        "Ganni": 11.1,
+                        "Libero": 11.1
+                    }
+            },
+            {
+                "label": "Depilati",
+                "points": {
+                        "Asa": 12.5,
+                        "Frida": 12.5
+                    }
+            },
+            {
+                "label": "(Mon)calvo",
+                "points": {
+                        "Fabbro": 10,
+                        "Mescitello":5.55
+                    }
+            }
+        ]
+    },
+    {
+        "question":"Qual è il tuo numero preferito?",
+        "options":[
+            {
+                "label": "104",
+                "points": {
+                        "Tommen": 11.1,
+                        "Ganni": 11.1
+                    }
+            },
+            {
+                "label": "34 Uno più di Cristo",
+                "points": {
+                        "Fabbro": 10,
+                        "Yoshi": 10
+                    }
+            },
+            {
+                "label": "88",
+                "points": {
+                        "Shregolo": 12.5
+                    }
+            },
+            {
+                "label": "365",
+                "points": {
+                        "Duro": 10
+                    }
+            }
+        ]
+    },
+    {
+        "question":"Hai una penna in mano, che fai?",
+        "options":[
+            {
+                "label": "Scrivi un libro di poesie",
+                "points": {
+                        "Frida": 12.5
+                    }
+            },
+            {
+                "label": "La tiri a mescitello",
+                "points": {
+                        "Fabbro": 10,
+                        "Dondolo": 12.5
+                    }
+            },
+            {
+                "label": "Provi a fumarla",
+                "points": {
+                        "Yoshi": 5,
+                        "Mescitello": 11.1
+                    }
+            },
+            {
+                "label": "Scopri di avere il pollice opponibile",
+                "points": {
+                        "Yoshi": 5,
+                        "Tommen": 11.1
+                    }
+            }
+        ]
+    },
+    {
+        "question":"Quando ti ubriachi",
+        "options":[
+            {
+                "label": "Prendi a pugni un abruzzese",
+                "points": {
+                        "Duro": 6.25,
+                        "Yoshi": 10
+                    }
+            },
+            {
+                "label": "Ti metti un tubo nel pipo",
+                "points": {
+                        "Libero": 11.1
+                    }
+            },
+            {
+                "label": "Diventi un po' gay",
+                "points": {
+                        "Mescitello": 11.1
+                    }
+            },
+            {
+                "label": "Sbocchi alla tua proclamazione",
+                "points": {
+                        "Shregolo": 12.5
+                    }
+            }
+        ]
+    },
+    {
+        "question":"Chi è il tuo presidente del consiglio",
+        "options":[
+            {
+                "label": "Schlein",
+                "points": {
+                        "Asa": 12.5,
+                        "Tapis": 12.5,
+                        "Libero": 11.1
+                    }
+            },
+            {
+                "label": "Totti",
+                "points": {
+                        "Dondolo": 12.5,
+                        "Duro":12.5
+                    }
+            },
+            {
+                "label": "Duce",
+                "points": {
+                        "Shregolo": 12.5
+                    }
+            },
+            {
+                "label": "Cosa? Non ho chiesto un consiglio",
+                "points": {
+                        "Tommen": 11.1,
+                        "Ganni": 11.1
+                    }
+            }
+        ]
+    }
+]

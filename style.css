@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    height: 100vh;
+    background: url(images/hammamet.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.start-screen,
+.score-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+#start-button,
+#restart {
+    font-size: 1.3em;
+    padding: 0.5em 1.8em;
+    border-radius: 0.2em;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4);
+}
+#restart {
+    margin-top: 0.9em;
+}
+#display-container {
+    background-color: #ffffff;
+    padding: 3.1em 1.8em;
+    width: 80%;
+    max-width: 37.5em;
+    border-radius: 0.6em;
+}
+.header {
+    margin-bottom: 1.8em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0.6em;
+    border-bottom: 0.1em solid #c0bfd2;
+}
+.question {
+    margin-bottom: 1.25em;
+    font-weight: 600;
+}
+.option-div {
+    font-size: 0.9em;
+    width: 100%;
+    padding: 1em;
+    margin: 0.3em 0;
+    text-align: left;
+    outline: none;
+    background: transparent;
+    border: 1px solid #c0bfd2;
+    border-radius: 0.3em;
+}
+.option-div:disabled {
+    color: #000000;
+    cursor: not-allowed;
+}
+#next-button {
+    font-size: 1em;
+    margin-top: 1.5em;
+    background-color: #8754ff;
+    color: #ffffff;
+    padding: 0.7em 1.8em;
+    border-radius: 0.3em;
+    float: right;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.3);
+}
+.hide {
+    display: none;
+}
+.red {
+    background-color: #ffdde0;
+    color: #d32f2f;
+    border-color: #d32f2f;
+}
+.green {
+    background-color: #e7f6d5;
+    color: #689f38;
+    border-color: #689f38;
+}
+.blue {
+    background-color: rgb(213, 216, 246);
+    color: #0808a4;
+    border-color: #0808a4;
+}
+.violet {
+    background-color: #eed5f6;
+    color: rgb(82, 2, 98);
+    border-color: rgb(82, 2, 98);
+}
+.orange {
+    background-color: #f6e2d5;
+    color: rgb(130, 64, 2);
+    border-color: rgb(130, 64, 2);
+}
+#user-score {
+    font-size: 1.5em;
+    color: #ffffff;
+    background-color: #8754ff;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+    max-height: 80vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.share {
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+    text-align:center;
+    user-select: none;
+}
+footer a {
+    color: inherit;
+    cursor: pointer;
+}
