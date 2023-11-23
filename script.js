@@ -176,7 +176,7 @@ function show_result()
         {
             //const br2 = document.createElement('br');
             const p = document.createElement('p');
-            p.innerText = 'Sei ' + alliev + lines[alliev];
+            p.innerText = lines[alliev];
             p.style.userSelect = 'none';
             p.style.width = '85%';
             p.style.marginInline = 'auto';
@@ -188,8 +188,10 @@ function show_result()
             //const br3 = document.createElement('br');
             const track = document.createElement('audio');
             track.autoplay = true;
-            track.controls = false;
-            track.hidden = true;
+            track.controls = true;
+            track.hidden = false;
+            track.style.width = '100%';
+            track.style.height = 'fit-content';
             track.src = audio[alliev];
             //userScore.appendChild(br3);
             userScore.appendChild(track);
